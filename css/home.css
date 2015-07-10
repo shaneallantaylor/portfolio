@@ -4,6 +4,10 @@ body {
   font-family: open sans;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   color: #ff9966;
   text-decoration: none;
@@ -188,6 +192,15 @@ ul li {
 
 .nope {
   opacity: 0;
+}
+
+.unfocused {
+  opacity: 0.3;
+  z-index: -1;
+  position: absolute;
+  right: 0px;
+  margin-top: 0px;
+  left: 20px;
 }
 
 
