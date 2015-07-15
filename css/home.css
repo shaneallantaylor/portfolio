@@ -40,6 +40,23 @@ ul li {
   font-style: italic;
   font-weight: 200;
   font-size: 32px;
+  padding-top: 25px;
+}
+
+.sub-title {
+  font-weight: 300;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: #333;
+}
+
+.nav-item {
+  padding-right: 10px;
+  margin-top: -15px;
+  position: absolute;
+  right: 0;
+  font-weight: 300;
+  font-size: small;
 }
 
 .content-container {
@@ -111,9 +128,8 @@ ul li {
   flex-direction: column;
   justify-content: flex-end;
   left: 0;
-  width: 40%;
-  min-width: 400px;
-  height: 225px;
+  width: 453px;
+  height: 255px;
   background-image: url("../img/sample-work/mt.jpg");
   background-size: contain;
 }
@@ -145,9 +161,8 @@ ul li {
   flex-direction: column;
   justify-content: flex-end;
   right: 0;
-  width: 40%;
-  min-width: 400px;
-  height: 225px;
+  width: 453px;
+  height: 255px;
   background-image: url("../img/sample-work/rent-calc.jpg");
   background-size: contain;
 }
