@@ -138,10 +138,12 @@ ul li {
   height: 255px;
   background-image: url("../img/sample-work/mt.jpg");
   background-size: contain;
+  z-index: 900;
 }
 
 .sample-details-1 {
   font-size: 14px;
+  z-index: 998;
 }
 
 .sample-details-2 {
@@ -151,11 +153,13 @@ ul li {
 .sample-link-1 {
   font-size: 12px;
   font-style: italic;
+  z-index: 999;
 }
 
 .sample-link-2 {
   font-size: 12px;
   font-style: italic;
+  z-index: 999;
 }
 
 .sample-2 {
