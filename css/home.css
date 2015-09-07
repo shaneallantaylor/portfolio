@@ -1,6 +1,6 @@
 body {
-  background-color: #fafafa;
-  color: #ff9966;
+  background-color: #f3eee8;
+  color: #f4cf0d;
   font-family: open sans;
 }
 
@@ -9,17 +9,18 @@ body::-webkit-scrollbar {
 }
 
 a {
-  color: #ff9966;
+  color: #f4cf0d;
+  font-weight: bold;
   text-decoration: none;
 }
 
 a:visted {
-  color: #ff9966;
+  color: #f4cf0d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #333;
+  color: #e15e34;
 }
 
 ul {
@@ -37,16 +38,14 @@ ul li {
 }
 
 .header h1 {
-  font-style: italic;
-  font-weight: 200;
-  font-size: 32px;
+  font-weight: 900;
+  font-size: 36px;
   padding-top: 15px;
 }
 
 .and-now {
-  font-style: italic;
-  font-weight: 200;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .sub-title {
@@ -127,6 +126,8 @@ ul li {
 
 .sample-1 {
   background-size: cover;
+  cursor: pointer;
+  transition: all 0.5s;
   background-position: center top;
   margin: 10px auto;
   position: relative;
@@ -164,6 +165,8 @@ ul li {
 
 .sample-2 {
   background-size: cover;
+  cursor: pointer;
+  transition: all 0.5s;
   background-position: center top;
   margin: 10px auto;
   position: relative;
@@ -177,8 +180,43 @@ ul li {
   background-size: contain;
 }
 
+.sample-3 {
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-position: center top;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  right: 0;
+  width: 453px;
+  height: 255px;
+  background-image: url("../img/sample-work/gc.jpg");
+  background-size: contain;
+}
+
+.sample-4 {
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-position: center top;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  right: 0;
+  width: 453px;
+  height: 255px;
+  background-image: url("../img/sample-work/ttt.jpg");
+  background-size: contain;
+}
+
 .expo-container {
-  background-color: #ccc;
+  background: #e15e34; /* Old browsers */
+
   width: 78%;
   margin: auto;
   position: relative;
@@ -200,7 +238,7 @@ ul li {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 22px solid #ccc;
+  border-bottom: 22px solid #e15e34;
   margin-top: -23px;
 }
 
