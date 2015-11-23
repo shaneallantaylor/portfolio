@@ -1,6 +1,6 @@
 body {
-  background-color: #f3eee8;
-  color: #f4cf0d;
+  background-color: #3b3b3b;
+  color: #0dbbf4;
   font-family: open sans;
 }
 
@@ -9,18 +9,18 @@ body::-webkit-scrollbar {
 }
 
 a {
-  color: #f4cf0d;
+  color: #0dbbf4;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:visted {
-  color: #f4cf0d;
+  color: #0dbbf4;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e15e34;
+  color: #0dbbf4;
 }
 
 ul {
@@ -52,7 +52,7 @@ ul li {
   font-weight: 300;
   margin-right: 20%;
   margin-left: 20%;
-  color: #333;
+  color: #ebebeb;
 }
 
 .nav-item {
@@ -214,55 +214,5 @@ ul li {
   background-size: contain;
 }
 
-.expo-container {
-  background: #e15e34; /* Old browsers */
-
-  width: 78%;
-  margin: auto;
-  position: relative;
-  transition: all 0.5s;
-}
-
-.expo {
-  margin: 30px 0px 10px 0px;
-  padding: 1px 20px 5px 20px;
-}
-
-.expo-text {
-  color: black;
-  font-weight: 300;
-}
-
-.arrow-up {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 22px solid #e15e34;
-  margin-top: -23px;
-}
-
-.left {
-  margin-left: 40%;
-}
-
-.right {
-  position: absolute;
-  right: 40%;
-  margin-top: -22px;
-}
-
-.nope {
-  opacity: 0;
-}
-
-.unfocused {
-  opacity: 0.3;
-  z-index: -1;
-  position: absolute;
-  right: 0px;
-  margin-top: 0px;
-  left: 20px;
-}
 
 
