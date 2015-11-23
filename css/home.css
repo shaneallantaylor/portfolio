@@ -1,6 +1,6 @@
 body {
   background-color: #3b3b3b;
-  color: #0dbbf4;
+  color: #22a9d6;
   font-family: open sans;
 }
 
@@ -9,18 +9,18 @@ body::-webkit-scrollbar {
 }
 
 a {
-  color: #0dbbf4;
+  color: #22a9d6;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:visted {
-  color: #0dbbf4;
+  color: #22a9d6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0dbbf4;
+  color: #22a9d6;
 }
 
 ul {
@@ -83,8 +83,7 @@ ul li {
 .sample-title {
   position: absolute;
   bottom: 0;
-  background-color: black;
-  opacity: 0.8;
+  background-color: rgba(30, 30, 30, 0.8);
   height: 50px;
   width: 100%;
   -webkit-transition: height 0.5s;
