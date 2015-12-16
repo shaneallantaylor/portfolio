@@ -1,7 +1,7 @@
 body {
   background-color: #3b3b3b;
   color: #22a9d6;
-  font-family: open sans;
+  font-family: open sans, sans-serif;
 }
 
 body::-webkit-scrollbar {
