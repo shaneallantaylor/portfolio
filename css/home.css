@@ -36,6 +36,8 @@ ul li {
 .header {
   margin-top: 10px;
   width: 100%;
+  text-align: center;
+  text-align: -webkit-center;
 }
 
 .header h1 {
